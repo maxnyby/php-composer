@@ -1,4 +1,4 @@
-FROM php:latest
+FROM php:5.5
 
 RUN apt-get update && \
 	apt-get install git curl zlib1g-dev lftp -yqq && \
