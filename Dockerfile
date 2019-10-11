@@ -7,4 +7,4 @@ RUN apt-get update && \
 	curl --silent --show-error https://getcomposer.org/installer | php && \
 	mv composer.phar /bin/composer
 
-RUN	composer global require "hirak/prestissimo"
+RUN	composer global require "hirak/prestissimo" "jakub-onderka/php-parallel-lint" "jakub-onderka/php-console-highlighter"
